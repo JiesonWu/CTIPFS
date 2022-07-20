@@ -39,3 +39,25 @@ web3.0 在不断的发展，人们对数据的隐私及权利越来越重视。
 ##  视频Demo
 
 ![avatar](https://github.com/JiesonWu/CTIPFS/blob/main/Result.png)
+
+##  CTIPFS 源码使用样例
+
+## Build from source
+
+```
+go build bt2ipfs.go
+```
+
+## Usage
+
+示例：将磁力链(magnet:?xt=urn:btih:KRWPCX3SJUM4IMM4YF5RPHL6ANPYTQPU）对应的文件存储到IPFS上（127.0.0.1:5001）
+
+
+```
+# ./bt2ipfs magnet:?xt=urn:btih:KRWPCX3SJUM4IMM4YF5RPHL6ANPYTQPU 127.0.0.1:5001
+Waiting info of magnet:?xt=urn:btih:KRWPCX3SJUM4IMM4YF5RPHL6ANPYTQPU
+Filename: ubuntu-14.04.2-desktop-amd64.iso
+Size: 1044381696
+[##################################################] 1044381696/1044381696
+IPFS hash: QmaZnCNKzkkqMvNhsrw3zHhVTnUy6P1tK9dbPmLBBXLN7D
+```
