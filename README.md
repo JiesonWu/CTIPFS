@@ -37,3 +37,4 @@ web3.0 在不断的发展，人们对数据的隐私及权利越来越重视。
 
 ##  视频Demo
 
+![avatar](https://github.com/JiesonWu/CTIPFS/blob/main/Result.png)
